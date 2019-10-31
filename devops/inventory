@@ -1,0 +1,27 @@
+# DEV
+[node-app]
+180.120.10.109 ansible_ssh_user=usuario ansible_ssh_pass=2812 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+
+[manager-app]
+180.120.10.107 ansible_ssh_user=usuario ansible_ssh_pass=2812 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+
+#ejemplo de acceso con clave privada
+# GOB UAT
+#[manager-gob-uat]
+#d250lxcte05 ansible_ssh_user=srv_deploy ansible_ssh_private_key_file=~/.ssh/id_rsa ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+
+#[nodo-gob-uat]
+#d250lxcte04 ansible_ssh_user=srv_deploy ansible_ssh_private_key_file=~/.ssh/id_rsa ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+
+# Dev Farmalink
+[manager-farma-dev]
+10.74.4.22 ansible_ssh_user=usr_deploy ansible_ssh_pass=Deploy11 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+
+[nodo1-farma-dev]
+10.74.4.23 ansible_ssh_user=usr_deploy ansible_ssh_pass=Deploy11 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+
+[block1-farma-dev]
+10.74.4.24 ansible_ssh_user=usr_deploy ansible_ssh_pass=Deploy11 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+
+[block2-farma-dev]
+10.74.4.25 ansible_ssh_user=usr_deploy ansible_ssh_pass=Deploy11 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'

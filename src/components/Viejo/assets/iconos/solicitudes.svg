@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.095" height="15.002" viewBox="0 0 24.095 15.002">
+  <g id="solicitudes" transform="translate(0.507 0.498)">
+    <path id="Trazado_3329" data-name="Trazado 3329" d="M771,605.232l8.786,6.314,8.227-6.314" transform="translate(-770.505 -604.614)" fill="none" stroke="#92bbda" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Grupo_2308" data-name="Grupo 2308" transform="translate(12.435 11.083) rotate(-90)">
+      <path id="Trazado_3261" data-name="Trazado 3261" d="M0,0H8.338" transform="translate(2.223) rotate(90)" fill="none" stroke="#92bbda" stroke-linecap="round" stroke-width="1"/>
+      <path id="Trazado_3262" data-name="Trazado 3262" d="M0,0,2.422,2.124,0,4.324" transform="translate(4.324 8.23) rotate(90)" fill="none" stroke="#92bbda" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <path id="Trazado_3330" data-name="Trazado 3330" d="M827.179,615.923a1.476,1.476,0,0,1-1.622,1.559s-11.718-.047-13.967,0-2.093-1.559-2.093-1.559v-10.5s-.314-1.877,2.093-1.924,12.032.047,13.6,0,2.3.54,2.354,1.924,0,3.747,0,3.747" transform="translate(-809.484 -603.482)" fill="none" stroke="#92bbda" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>

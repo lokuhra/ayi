@@ -1,0 +1,179 @@
+.headerContainer {
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgba(0, 0, 0, .12);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftHeader {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 24px;
+}
+
+.actionButton {
+    margin-left: 24px;
+}
+
+.texto {
+    font-size: 15px;
+    color: #42526e;
+}
+
+.rightHeader {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 70px;
+}
+
+.headerButton {
+    width: 73px;
+    height: 40px;
+    border-radius: 24px;
+    box-shadow: 0 3px 6px 0 rgba(227, 236, 242, 0.77);
+    background-color: white;
+    border: 0;
+    font-size: 13px;
+    color: #2f3d55;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.headerButton figure {
+    margin: 0;
+    height: 30px;
+}
+
+.headerButton img {
+    height: 30px;
+    width: 30px;
+}
+
+.headerButton:focus {
+    outline: 0;
+}
+
+.desconectar {
+    margin-right: 30px;
+    width: 15px;
+}
+
+.desconectar figure {
+    margin: 0;
+}
+
+.notificacion {
+    display: inline-block;
+    position: relative;
+    margin-right: 26px;
+    cursor: pointer;
+}
+
+.notificacionesDropdown {
+    position: absolute;
+    min-width: 368px;
+    max-width: 368px;
+    height: 400px;
+    box-shadow: 0px 0px 10px 1px #e6e6e6;
+    right: -11px;
+    background-color: white;
+    top: 42px;
+}
+
+.notificacionesDropdown:after,
+.notificacionesDropdown:before {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid white;
+    bottom: 400px;
+    content: '';
+    left: 97%;
+    margin-left: -20px;
+    position: absolute;
+}
+
+.notificacionesDropdownShow {
+    display: block;
+}
+
+.notificacionesDropdownHide {
+    display: none;
+}
+
+.tituloNotificaciones {
+    width: 93px;
+    height: 18px;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2f3d55;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    margin-left: 24px;
+}
+
+.notificacionItem {
+    display: flex;
+    padding: 16px 0px;
+    border-bottom: 1px solid #E4E4E4;
+    font-size: 12px;
+    color: #42526e;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    transition: background-color .3s ease-in-out;
+}
+
+.notificacionItem:hover {
+    background-color: #e3ecf2;
+}
+
+.figure,
+.iconImg {
+    height: 50px;
+    width: 50px;
+}
+
+.figure {
+    margin: 0 20px;
+}
+
+.notificacionMensaje {
+    width: 250px;
+}
+
+.verNotificacion {
+    margin-top: 12.8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.verNotificacion p {
+    margin: -2px 0 0 0;
+}
+
+.verMas {
+    display: flex;
+    color: #0acbc7;
+    cursor: pointer;
+    justify-content: flex-end;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+    height: 49px;
+    padding-right: 27px
+}

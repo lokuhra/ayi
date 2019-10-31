@@ -1,0 +1,68 @@
+.cardContainer {
+    width: 312px;
+    height: 136px;
+    border-radius: 12px;
+    border: solid 1px #e3ecf2;
+    box-shadow: 0 3px 20px 0 rgba(47, 61, 85, 0.1);
+    margin-bottom: 26px;
+    padding: 20px 18px 21px 17px;
+}
+
+.acciones {
+    text-align: right;
+    color: #2f3d55;
+    height: 18px;
+}
+
+.entidadContainer {
+    display: flex;
+}
+
+.entidad, .periodo {
+    margin-left: 18px;
+    display: flex;
+    color: #42526e;
+    font-size: 13px;
+}
+
+.primerDetalle {
+    font-weight: bold;
+    margin-right: 7px;
+    max-width: 140px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+    padding-left: 40px;
+}
+
+.monto {
+    font-weight: bold;
+    color: #42526e;
+    font-size: 14px;
+    display: flex;
+}
+
+.monto > figure {
+    padding: 0;
+    margin: 0;
+}
+
+.fecha {
+    color: #42526e;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.estado {
+    font-size: 13px
+}
+
+.item {
+    font-size: 13px;
+}   

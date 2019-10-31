@@ -1,0 +1,5 @@
+#!/bin/sh
+docker build -f Dockerfile.dev.farma -t soporteayi/farma-frontend:$BUILD_NUMBER .
+docker push soporteayi/farma-frontend:$BUILD_NUMBER
+docker container prune -f
+docker image prune -f

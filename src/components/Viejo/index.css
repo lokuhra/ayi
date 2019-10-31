@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+
+.centrado {
+  display: flex;
+}
+
+.centradoVer {
+  align-items: center;
+}
+
+.centradoHor {
+  justify-content: center;
+}
+
+.boton {
+  width: 120px;
+  height: 40px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.boton-lg {
+  width: 132px;
+  height: 40px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.botonPrincipal {
+  background-color: white;
+  color: #05bebe;
+  border: 0.8px solid #05bebe;
+}
+
+.botonSecundario {
+  background-color: #05bebe;
+  color: white;
+  border: 0.8px solid #05bebe;
+  box-shadow: 0 3px 10px 0 rgba(5, 190, 190, 0.55);
+}
+
+.botonIcono {
+  padding-left: 14.9px;
+}
+
+.boton:focus {
+  outline: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

@@ -1,0 +1,77 @@
+.saldoContainer {
+    height: 167.3px;
+    box-shadow: 0px 3px 30px 0px rgba(107, 143, 167, 0.14);
+    border-radius: 33px;
+    padding: 20px 26.6px 31.7px 25px;
+    max-width: 80%;
+}
+
+.saldoContainerSm {
+    width: 410px;
+}
+
+.saldoContainerMd {
+    width: 480px;
+}
+
+.titulo {
+    font-size: 17px;
+    color: #2F3D55;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.icono {
+    width: 45px;
+    height: 45px;
+    color: #0184E8;
+    font-size: 29px;
+    line-height: 38px;
+    border-radius: 25px;
+    margin-right: 13.3px;
+    font-weight: bold;
+}
+
+.iconoBackground {
+    background-color: rgba(32,208,254,0.4);
+}
+
+.saldo {
+    padding-left: 53px;
+    color: #2f3d55;
+    font-size: 44px;
+    line-height: 1.36;
+    margin-top: 15px;
+    display: flex;
+}
+
+.acciones {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 7.3px;
+}
+
+.margenIcono {
+    margin: 0 10.5px 0 0;
+}
+
+.imagenIcono {
+    width: 100%;
+    height: 100%;
+}
+
+.farmacoinIcono {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.saldoIcono {
+    margin: 0 9px 0 0;
+    width: 35.7px;
+    height: 31.3px;
+}

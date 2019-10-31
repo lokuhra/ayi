@@ -1,0 +1,22 @@
+---
+version: "3"
+services:
+ Frontend:
+  image: soporteayi/farma-frontend
+  networks:
+   - farmapago_default
+  ports:
+   - 70:80
+  deploy:
+   placement:
+     constraints: [node.labels.type == app ]
+   replicas: 2
+   restart_policy:
+    condition: any
+    delay: 5s
+    max_attempts: 3
+
+networks:
+ farmapago_default:
+  external:
+   name: farmapago_default    

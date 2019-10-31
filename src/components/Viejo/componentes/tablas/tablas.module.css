@@ -1,0 +1,59 @@
+.tableContainer {
+    box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 25px 18px 10px 18px;
+    border-radius: 4px;
+}
+
+.table {
+    border-collapse: collapse;
+    overflow: scroll;
+}
+
+.thead td,
+.tbody td {
+    font-size: 13px;
+    height: 60px;
+}
+
+.thead td {
+    color: #2f3d55;
+}
+
+.tbody td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tbody tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, .12);
+}
+
+.verTodos {
+    font-weight: bold;
+    font-size: 12;
+    color: #0acbc7 !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.accionesContainer {
+    display: flex;
+    font-weight: bold;
+    color: #0acbc7;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+@media (max-width: 780px) {
+
+    .tableContainer {
+        display: block;
+        overflow-x: auto;
+        table-layout: fixed;
+    }
+}

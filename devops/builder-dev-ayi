@@ -1,0 +1,5 @@
+#!/bin/sh
+docker build -f Dockerfile.dev.ayi -t soporteayi/farma-frontend:latest .
+docker push soporteayi/farma-frontend:latest
+docker container prune -f
+docker image prune -f

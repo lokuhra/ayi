@@ -1,0 +1,33 @@
+---
+- name: Deploy
+  hosts: "manager-app"  
+  remote_user: usuario
+  gather_facts: yes
+
+  tasks:
+  - name: Crear el directorio
+    file:
+     path: /opt/farmapago/FarmaFrontend
+     state: directory
+
+  - name: Copiar el docker compose
+    copy: 
+     src: docker-compose-dev-ayi.yml
+     dest: /opt/farmapago/FarmaFrontend
+
+  - name: Deploy en Swarm
+    shell: docker stack deploy -c /opt/farmapago/FarmaFrontend/docker-compose-dev-ayi.yml farmaFront
+
+- name: Clean Nodes
+  hosts: "manager-app"
+  remote_user: usuario
+  gather_facts: yes
+
+  tasks:
+  - name: limpiar containers
+    shell: docker container prune -f
+
+  - name: limpiar  imagenes
+    shell: docker image prune -a -f
+      
+  

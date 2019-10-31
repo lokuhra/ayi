@@ -1,0 +1,258 @@
+{
+  "../src/components/Layout": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/inheritsLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/inheritsLoose.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@material-ui/icons/ChevronLeft.js",
+      "name": "./node_modules/@material-ui/icons/ChevronLeft.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@material-ui/icons/ChevronRight.js",
+      "name": "./node_modules/@material-ui/icons/ChevronRight.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@material-ui/icons/NotificationsNone.js",
+      "name": "./node_modules/@material-ui/icons/NotificationsNone.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@tanem/svg-injector/dist/svg-injector.esm.js",
+      "name": "./node_modules/@tanem/svg-injector/dist/svg-injector.esm.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/_Symbol.js",
+      "name": "./node_modules/lodash/_Symbol.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/_baseGetTag.js",
+      "name": "./node_modules/lodash/_baseGetTag.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/_freeGlobal.js",
+      "name": "./node_modules/lodash/_freeGlobal.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/_getRawTag.js",
+      "name": "./node_modules/lodash/_getRawTag.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/_objectToString.js",
+      "name": "./node_modules/lodash/_objectToString.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/_root.js",
+      "name": "./node_modules/lodash/_root.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/debounce.js",
+      "name": "./node_modules/lodash/debounce.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/isObject.js",
+      "name": "./node_modules/lodash/isObject.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/isObjectLike.js",
+      "name": "./node_modules/lodash/isObjectLike.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/isSymbol.js",
+      "name": "./node_modules/lodash/isSymbol.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/now.js",
+      "name": "./node_modules/lodash/now.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/lodash/toNumber.js",
+      "name": "./node_modules/lodash/toNumber.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/components/Content.js",
+      "name": "./node_modules/mui-layout/dist/components/Content.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/components/Footer.js",
+      "name": "./node_modules/mui-layout/dist/components/Footer.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/components/Header.js",
+      "name": "./node_modules/mui-layout/dist/components/Header.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/components/Nav.js",
+      "name": "./node_modules/mui-layout/dist/components/Nav.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/components/Root.js",
+      "name": "./node_modules/mui-layout/dist/components/Root.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/context/LayoutContext.js",
+      "name": "./node_modules/mui-layout/dist/context/LayoutContext.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/context/index.js",
+      "name": "./node_modules/mui-layout/dist/context/index.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/hooks/useAutoCollapse.js",
+      "name": "./node_modules/mui-layout/dist/hooks/useAutoCollapse.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/hooks/useConfig.js",
+      "name": "./node_modules/mui-layout/dist/hooks/useConfig.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/hooks/useEventListener.js",
+      "name": "./node_modules/mui-layout/dist/hooks/useEventListener.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/hooks/useHeightAdjustment.js",
+      "name": "./node_modules/mui-layout/dist/hooks/useHeightAdjustment.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/hooks/useMergedConfig.js",
+      "name": "./node_modules/mui-layout/dist/hooks/useMergedConfig.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/hooks/useWidth.js",
+      "name": "./node_modules/mui-layout/dist/hooks/useWidth.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/index.js",
+      "name": "./node_modules/mui-layout/dist/index.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/utils/createGetScreenValue.js",
+      "name": "./node_modules/mui-layout/dist/utils/createGetScreenValue.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/utils/isPlainObject.js",
+      "name": "./node_modules/mui-layout/dist/utils/isPlainObject.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/utils/presets.js",
+      "name": "./node_modules/mui-layout/dist/utils/presets.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/mui-layout/dist/utils/someIs.js",
+      "name": "./node_modules/mui-layout/dist/utils/someIs.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-dom/cjs/react-dom-server.browser.development.js",
+      "name": "./node_modules/react-dom/cjs/react-dom-server.browser.development.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-dom/server.browser.js",
+      "name": "./node_modules/react-dom/server.browser.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-svg/dist/react-svg.esm.js",
+      "name": "./node_modules/react-svg/dist/react-svg.esm.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./src/components/Layout/AppBar.js",
+      "name": "./src/components/Layout/AppBar.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./src/components/Layout/Drawer.js",
+      "name": "./src/components/Layout/Drawer.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./src/components/Layout/index.js",
+      "name": "./src/components/Layout/index.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    }
+  ]
+}
