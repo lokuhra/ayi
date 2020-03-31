@@ -22,7 +22,7 @@
     "material-ui-password-field": "^2.1.0",
     "moment": "^2.24.0",
     "mui-layout": "^1.2.9",
-    "next": "^9.0.7",
+    "next": "^9.3.2",
     "next-compose-plugins": "^2.2.0",
     "next-images": "^1.2.0",
     "next-optimized-images": "^2.5.3",
